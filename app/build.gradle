@@ -32,6 +32,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures{
+        viewBinding = true
+        dataBinding = true
+    }
 }
 
 def nav_version = "2.4.2"
