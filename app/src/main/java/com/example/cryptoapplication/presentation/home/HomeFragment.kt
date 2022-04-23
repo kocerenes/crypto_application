@@ -3,7 +3,9 @@ package com.example.cryptoapplication.presentation.home
 import androidx.fragment.app.viewModels
 import com.example.cryptoapplication.base.BaseFragment
 import com.example.cryptoapplication.databinding.FragmentHomeBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeFragment : BaseFragment<FragmentHomeBinding, HomeViewModel>(
     FragmentHomeBinding::inflate
 ) {
