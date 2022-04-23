@@ -1,6 +1,6 @@
 package com.example.cryptoapplication.di
 
-import androidx.viewbinding.BuildConfig
+import com.example.cryptoapplication.BuildConfig
 import com.example.cryptoapplication.network.ApiFactory
 import com.example.cryptoapplication.utils.Constants.BASE_URL
 import dagger.Module
