@@ -3,6 +3,7 @@ package com.example.cryptoapplication.presentation.home
 import androidx.fragment.app.viewModels
 import com.example.cryptoapplication.base.BaseFragment
 import com.example.cryptoapplication.databinding.FragmentHomeBinding
+import com.example.cryptoapplication.model.home.Data
 import com.example.cryptoapplication.utils.Constants.API_KEY
 import com.example.cryptoapplication.utils.Constants.LIMIT
 import dagger.hilt.android.AndroidEntryPoint
@@ -22,5 +23,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding, HomeViewModel>(
 
     override fun observeEvents() {
     }
+
+
 
 }
