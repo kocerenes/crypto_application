@@ -8,13 +8,13 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.viewbinding.ViewBinding
 
-abstract class BaseFragment<viewBinding: ViewBinding, viewModel:ViewModel>(
-    private val bindingInflater: (inflater: LayoutInflater) ->viewBinding
+abstract class BaseFragment<VB: ViewBinding, VM:ViewModel>(
+    private val bindingInflater: (inflater: LayoutInflater) ->VB
 ): Fragment() {
 
-    private var _binding: viewBinding? = null
-    private val binding: viewBinding get() = _binding as viewBinding
-    protected abstract val viewModel : viewModel
+    private var _binding: VB? = null
+    protected val binding: VB get() = _binding as VB
+    protected abstract val viewModel : VM
     protected abstract fun onCreateFinished()
     protected abstract fun initializeListener()
     protected abstract fun observeEvents()

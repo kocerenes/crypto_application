@@ -1,7 +1,7 @@
 package com.example.cryptoapplication.presentation.home
 
-import android.provider.ContactsContract
+import com.example.cryptoapplication.model.home.Data
 
 interface ItemClickListener {
-    fun onItemClick(coin:ContactsContract.Data)
+    fun onItemClick(coin:Data)
 }
