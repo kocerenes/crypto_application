@@ -3,7 +3,7 @@ package com.example.cryptoapplication.model.detail
 
 import com.google.gson.annotations.SerializedName
 
-data class ETH(
+data class CoinDetail(
     @SerializedName("category")
     val category: String?,
     @SerializedName("contract_address")
