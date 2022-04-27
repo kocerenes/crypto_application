@@ -1,6 +1,10 @@
 # Crypto Application
 
-
+App GIF
+--------------
+<p align="left">
+  <img src="https://raw.githubusercontent.com/kocerenes/crypto_application/master/crypto.gif" alt="GIF" width="300" height="550"/>
+</p>
 
 Libraries Used
 --------------
