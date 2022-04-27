@@ -11,7 +11,7 @@ Libraries Used
   * [Repository][18] - Repository modules handle data operations.
   * [ViewModel][17] - Easily schedule asynchronous tasks for optimal execution.
   * [View Binding][11] - a feature that allows you to more easily write code that interacts with views.
-  * [Data Binding][13] - 
+  * [Data Binding][13] - The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources in your app using a declarative format rather than programmatically.
   * [Navigation][50] - Handle everything needed for in-app navigation.
      asynchronous tasks for optimal execution.
   * [Coroutines][51] - A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
