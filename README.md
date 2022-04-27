@@ -6,8 +6,6 @@ Libraries Used
 --------------
 * [Architecture][10] - Start with classes for managing your UI component lifecycle and handling data
   persistence.
-  * [Lifecycles][12] - Create a UI that automatically responds to lifecycle events.
-  * [Navigation][14] - Handle everything needed for in-app navigation.
   * [Repository][18] - Repository modules handle data operations.
   * [ViewModel][17] - Easily schedule asynchronous tasks for optimal execution.
   * [View Binding][11] - a feature that allows you to more easily write code that interacts with views.
@@ -33,8 +31,6 @@ Libraries Used
 [51]: https://developer.android.com/kotlin/coroutines
 [50]: https://developer.android.com/topic/libraries/architecture/navigation/
 [10]: https://developer.android.com/jetpack/compose/architecture
-[12]: https://developer.android.com/jetpack/compose/lifecycle
-[14]: https://developer.android.com/jetpack/compose/navigation
 [17]: https://developer.android.com/jetpack/compose/state#viewmodel-state
 [18]: https://developer.android.com/jetpack/guide#fetch-data
 [90]: https://square.github.io/retrofit/
